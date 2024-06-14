@@ -14,10 +14,38 @@
   50% { background-color: orange; }
   100% { background-color: red; }
 }
-
+body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+        }
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, red, orange);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .benefits-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .benefits-list li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
 .flashing-button {
   animation: flash 1s infinite;
 }
+
+
+        .highlight {
+            color: #ff7b3a;
+            font-weight: bold;
+        }
       </style>
       <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16603309359">
@@ -34,38 +62,50 @@
     <div class="bg-black">
         <div class="container">
             <div class="row justify-content-md-center">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <img src="./logo-1-1-1.png" class="img-fluid p-3" alt="Logo Melanine Hair">
                 </div>
             </div>
         </div>
     </div>
     <div id="color-changing-background" class="d-flex align-items-center">
-        <div class="container">
+        <div class="container p-2">
             <div class="row justify-content-center">
                 <div class="col text-center m-0">
-                    <p class="fs-2 fw-bold text-white mb-0">L A N Ç A M E N T O !</p>
+                    <p class="fs-6 fw-bold text-white mb-0">L A N Ç A M E N T O !</p>
                 </div>
             </div>
         </div>
     </div>
+  
     
-    
-    <div class="bg-white py-5">
+    <div style="background-image: url(https://melaninehair.com/wp-content/uploads/2024/06/Untitled-1-768x829-1-1.png);" class="bg-black py-5">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-3 mx-auto">
+                <div class="col-6 col-md-4 mx-auto">
                     <img src="./photo1683385926-removebg-preview-1-1.png" class="img-fluid" alt="Produto Melanine Hair">
                 </div>
                 <div class="col-md-6 d-flex align-items-center mx-auto">
                         <div class="row">
-                            <div class="col-md-12 mx-auto">
-                                <h2 class="fw-bold">Descubra a Revolução no Cuidado com o Cabelo</h2>
-                                <p class="fs-5">Com o novo Melanine Hair, seus cabelos nunca mais serão os mesmos. Aproveite o lançamento e transforme sua rotina capilar com nosso produto inovador!</p>
+                            <div class="col-md-12 mx-auto text-white">
+                              <h2 class="title fs-1">Descubra o poder do Melanine Hair</h2>
+                              <ul class="benefits-list">
+                                  <li>✅ Contribui para o crescimento e fortalecimento capilar</li>
+                                  <li>✅ Apoia a saúde dos folículos pilosos existentes</li>
+                                  <li>✅ Ajuda a manter a coloração dos fios</li>
+                                  <li>✅ Auxilia no controle da oleosidade</li>
+                                  <li>✅ Promove a hidratação do couro cabeludo</li>
+                                  <li>✅ Favorece a saúde das unhas</li>
+                                  <li>✅ Possui ativos botânicos naturais</li>
+                                  <li>✅ Composição de alta qualidade</li>
+                                  <li>✅ E MUITO, MUITO MAIS!</li>
+                              </ul>
                             </div>
-                            <div class="d-grid gap-2 col-md-8 mx-auto m-2">
-                                <button class="btn btn-primary btn-active-box-shadow fw-bold flashing-button" type="button"><a class="text-white" href="https://ev.braip.com/campanhas/cpa/camo2xpz8">EU QUERO MELANINE HAIR</a></button>
-                              </div>
+                            <div class="d-grid gap-2 col-md-8 mt-2 mb-2">
+                              <a href="https://ev.braip.com/campanhas/cpa/camo2xpz8" class="btn btn-primary btn-active-box-shadow fw-bold flashing-button text-white fs-4 p-2" style="text-decoration: none;">
+                                EU QUERO MELANINE HAIR
+                              </a>
+                            </div>
                               
                         </div>
                     </div>
@@ -73,9 +113,10 @@
             </div>
         </div>
     </div>
+    <div class="bg-light py-5">
     <div class="container my-5">
         <div class="text-center">
-          <h2 class="fw-bold">ESCOLHA MELANINE HAIR AGORA MESMO E REDUZA A QUEDA, FIOS BRANCOS E OBTENHA O CRESCIMENTO CAPILAR</h2>
+          <h2 class="title">ESCOLHA MELANINE HAIR AGORA MESMO E REDUZA A QUEDA, FIOS BRANCOS E OBTENHA O CRESCIMENTO CAPILAR</h2>
           <!-- <p class="fs-5">Aproveite os descontos progressivos.</p> -->
           <p class="fs-5">E na compra de qualquer quantidade de frascos você ganha um e-book para potencializar seu tratamento totalmente grátis.</p>
         </div>
@@ -192,9 +233,9 @@
         </div>
       </div>
       
-      
+    </div>
   
-      <div class="bg-light py-5">
+      <div class="bg-black py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -203,7 +244,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-light py-5">
+    <div class="bg-black py-5">
       <div class="container">
           <div class="row">
               <div class="col-md-12">
